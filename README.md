@@ -2,8 +2,6 @@
 
 Fibonacci example using [@hazeljs/worker](https://www.npmjs.com/package/@hazeljs/worker) — CPU-intensive task offloading with and without worker threads.
 
-> **Note:** This starter depends on `@hazeljs/core` and `@hazeljs/worker` (see `package.json`). For local development against the hazeljs monorepo, replace these with `file:../hazeljs/packages/core` and `file:../hazeljs/packages/worker`; otherwise use the published versions (e.g. `0.2.0` or latest).
-
 ## Quick Start
 
 ```bash
