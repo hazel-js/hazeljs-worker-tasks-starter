@@ -1,0 +1,23 @@
+{
+  "name": "hazeljs-worker-tasks-starter",
+  "version": "0.1.0",
+  "description": "Fibonacci example using @hazeljs/worker — CPU-intensive task offloading with and without worker threads",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/main.ts",
+    "lint": "eslint \"src/**/*.ts\"",
+    "lint:fix": "eslint \"src/**/*.ts\" --fix"
+  },
+  "dependencies": {
+    "@hazeljs/core": "0.2.0-rc.6",
+    "@hazeljs/worker": "0.2.0-rc.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.50",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  },
+  "author": "Muhammad Arslan <muhammad.arslan@hazeljs.ai>",
+  "license": "Apache-2.0"
+}
