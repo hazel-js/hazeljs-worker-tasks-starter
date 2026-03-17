@@ -10,8 +10,8 @@
     "lint:fix": "eslint \"src/**/*.ts\" --fix"
   },
   "dependencies": {
-    "@hazeljs/core": "0.2.0-rc.6",
-    "@hazeljs/worker": "0.2.0-rc.6"
+    "@hazeljs/core": "0.2.0-rc.7",
+    "@hazeljs/worker": "0.2.0-rc.7"
   },
   "devDependencies": {
     "@types/node": "^20.17.50",
